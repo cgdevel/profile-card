@@ -41,7 +41,7 @@ export const ProfileInfo = () => {
         <div className="socials">
           <h2>Contáctateme:</h2>
           <div className="socials-icons">
-            {info.socials.facebook != "" && (
+            {info.socials.facebook !== "" && (
               <>
                 <a
                   href={info.socials.facebook}
@@ -52,7 +52,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.instagram != "" && (
+            {info.socials.instagram !== "" && (
               <>
                 <a
                   href={info.socials.instagram}
@@ -63,7 +63,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.linkedin != "" && (
+            {info.socials.linkedin !== "" && (
               <>
                 <a
                   href={info.socials.linkedin}
@@ -74,7 +74,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.twitter != "" && (
+            {info.socials.twitter !== "" && (
               <>
                 <a
                   href={info.socials.twitter}
@@ -85,7 +85,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.youtube != "" && (
+            {info.socials.youtube !== "" && (
               <>
                 <a
                   href={info.socials.youtube}
@@ -96,7 +96,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.tiktok != "" && (
+            {info.socials.tiktok !== "" && (
               <>
                 <a
                   href={info.socials.tiktok}
@@ -107,7 +107,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.whatsapp != "" && (
+            {info.socials.whatsapp !== "" && (
               <>
                 <a
                   href={"https://wa.me/" + info.socials.whatsapp}
@@ -118,7 +118,7 @@ export const ProfileInfo = () => {
                 </a>
               </>
             )}
-            {info.socials.email != "" && (
+            {info.socials.email !== "" && (
               <>
                 <a
                   href={"mailto:" + info.socials.email}
