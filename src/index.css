@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Workbench&display=swap");
+
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #50e3c2;
+  --background-color: #f5f7fa;
+  --text-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Courgette", cursive;
+}
